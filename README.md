@@ -1,4 +1,4 @@
-# QR-code-scanner-
+# QR-code-scanner
 QR Code Scanner (Python + OpenCV)
 
 A simple QR Code Scanner built with Python and OpenCV.
