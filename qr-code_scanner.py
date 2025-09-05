@@ -1,15 +1,3 @@
-"""
-QR Code Scanner with OpenCV
----------------------------
-- Opens your webcam and looks for QR codes in real-time
-- Draws a green bounding box around detected QR codes
-- Shows the decoded text on screen
-- If exactly one QR code contains a valid URL, it opens in your browser
-- If multiple QR codes are detected, only prints them in the terminal
-- If not a URL, it says "Invalid URL"
-- Press 'q' to quit
-"""
-
 import cv2
 import webbrowser
 import re
@@ -88,3 +76,4 @@ def qr_code_scanner():
 
 if __name__ == "__main__":
     qr_code_scanner()
+
